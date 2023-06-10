@@ -1,0 +1,18 @@
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .question-container {
+    margin-bottom: 20px;
+  }
+  
+  #feedback {
+    margin-bottom: 20px;
+  }
+  
+  /* #start {
+    display: none;
+  } */
+  
