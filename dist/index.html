@@ -2,8 +2,9 @@
 <html>
 <head>
   <title>Coding Quiz</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="output.css">
+  <link rel="stylesheet" type="text/css" href="../style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- <link rel="stylesheet" type="text/css" href="output.css"> -->
 </head>
 <body>
     <div id="timer"></div>
@@ -16,6 +17,22 @@
         <div id="feedback"></div>
         <button id="start">Start Quiz</button>
     </div>
-  <script src="script.js"></script>
+
+    <div id="highScore" >
+       <!-- try make this hidden with css  -->
+        <section class="container">
+          <h1>finished</h1>
+          <ul id="high-score"> </ul>
+          
+        </input>
+
+          
+
+        </section>
+
+
+    </div>
+  <script src="../questions.js"></script>
+  <script src="../script.js"></script>
 </body>
 </html>
